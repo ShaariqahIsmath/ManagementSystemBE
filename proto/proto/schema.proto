@@ -1,0 +1,9 @@
+syntax = "proto3";
+package com.studentmanagementsystem;
+
+option java_multiple_files = true;
+
+message User {
+  int32 user_id = 1;
+  string user = 2;
+}
